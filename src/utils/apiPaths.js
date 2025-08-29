@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://nexscm-backend.onrender.com";
 
 export const API_PATHS = {
   AUTH: {
@@ -56,5 +56,6 @@ export const API_PATHS = {
     DOWNLOAD: (id) => `/api/invoice/${id}/download`,
   },
 };
+
 
 
